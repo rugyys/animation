@@ -1,0 +1,16 @@
+@keyframes animacao{
+    
+    0% {background-color: palegreen;width: 500px;}
+    50% {background-color:paleturquoise;width: 250px;}
+    100% {background-color: plum;width: 0px;}
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
